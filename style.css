@@ -1,7 +1,7 @@
 body {
     background-image : linear-gradient(90deg, #ffc93c, #ff6f3c );
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
     left: 600px;
     top: 300px
 }
