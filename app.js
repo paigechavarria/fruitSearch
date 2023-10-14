@@ -16,7 +16,8 @@ function search(str) {
                 results.push(fruit);
             }
         } 
-    return showSuggestions(results);
+    showSuggestions(results);
+    return results;
 }
 
 
