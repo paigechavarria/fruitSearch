@@ -37,7 +37,7 @@ function searchHandler(e) {
     suggestions.innerHTML = ''; //this prevents the fruit options from repeating
 	search(input.value); 
     if(input.value === ''){ //if there is nothing as the input value
-        suggestions.innerHTML = ''; //resetting the suggestions 
+        suggestions.innerHTML = ''; //have nothing in the suggestions 
     }
 }
 
