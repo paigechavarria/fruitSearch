@@ -60,7 +60,7 @@ function showSuggestions(results) {
     }
 }
 
-//initializing input values and setting ul to have an empty value
+//when clicking on a fruit in the list, make that the fill the input and the fruit list goes away
 function useSuggestion(e) {
 	input.value = e.target.innerText;
     suggestions.innerHTML = '';
